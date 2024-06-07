@@ -17,6 +17,7 @@ function applyThemeToElements() {
   const darkMode = document.body.classList.contains("dark-mode");
   const elements = [
     document.querySelector("header"),
+    document.querySelector("new-navbar"),
     document.querySelector(".sponsor-button"),
     ...document.querySelectorAll(".icons a"),
     document.getElementById("search-bar"),
